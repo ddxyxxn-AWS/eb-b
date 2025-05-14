@@ -1,0 +1,16 @@
+server:
+  port: 5000
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://dy-db.czeymoo8ctlk.ap-northeast-2.rds.amazonaws.com:3306/menudb
+    username: swcamp
+    password: swcampswcamp
+
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        '[format_sql]': true
